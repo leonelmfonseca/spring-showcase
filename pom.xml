@@ -28,6 +28,7 @@
 	</developers>
 	<modules>
 		<module>configuration</module>
+		<module>bean-scopes</module>
 	</modules>
 	<scm>
 		<connection>scm:git:git@github.com:leonelmfonseca/spring-showcase.git</connection>
