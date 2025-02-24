@@ -1,4 +1,4 @@
-package showcaseconfig.dto;
+package springcoreconfig.dto;
 
 import lombok.Data;
 import lombok.ToString;

@@ -1,12 +1,12 @@
-package showcaseconfig.service;
+package springcoreconfig.service;
 
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
-import showcaseconfig.dto.DbConfigurationInjectingProperties;
-import showcaseconfig.dto.DbConfigurationUsingConfigurationProperties;
-import showcaseconfig.dto.DbConfigurationUsingCoreEnvironment;
+import springcoreconfig.dto.DbConfigurationInjectingProperties;
+import springcoreconfig.dto.DbConfigurationUsingConfigurationProperties;
+import springcoreconfig.dto.DbConfigurationUsingCoreEnvironment;
 
 @Service
 // generates a constructor for fields that are either final fields (immutable, must be initialized

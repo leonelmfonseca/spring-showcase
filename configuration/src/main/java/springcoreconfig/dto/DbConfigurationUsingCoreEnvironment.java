@@ -1,4 +1,4 @@
-package showcaseconfig.dto;
+package springcoreconfig.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
